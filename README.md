@@ -1,5 +1,5 @@
 # This is an school simple project.
-> [IMPORTANT]
+> [!IMPORTANT]
 > I still changing this project, so expect bugs.
 
 > [!NOTE]
