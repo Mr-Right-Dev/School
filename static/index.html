@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Welcome user!</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
+</head>
+<body>
+    <header>
+        <img class="gb_P gbii" src="https://lh3.googleusercontent.com/ogw/AF2bZyimolL2QdY7cIV7-7kVyXs963mRBUPff_ezvwV-cJFkLw=s32-c-mo" srcset="https://lh3.googleusercontent.com/ogw/AF2bZyimolL2QdY7cIV7-7kVyXs963mRBUPff_ezvwV-cJFkLw=s32-c-mo 1x, https://lh3.googleusercontent.com/ogw/AF2bZyimolL2QdY7cIV7-7kVyXs963mRBUPff_ezvwV-cJFkLw=s64-c-mo 2x " alt="" aria-hidden="true" data-noaft="">
+        <p1>Home</p1>
+        <p1>About me</p1>
+        <p1>Last Jobs</p1>
+    </header> 
+    <div class="url">
+        <img src="imgs/home.webp">
+        <h1>/</h1>
+        <h1>projects</h1>
+        <h1>/</h1>
+        <h1>Super Vault</h1>
+    </div>
+    <div class="intro">
+        <h1 class="intro-tittle">Welcome to <strong>Super Vault</strong>!</h1>
+        <div class="content">
+            <p1>This website, saves yours passwords with <strong>high end encryption</strong>. If you wanna <a href="/">learn more.</a></p1>
+            <br>
+            <p1>Here you can: </p1>
+            <ul class="topping">
+                <li>Save yours passwords without an worry.</li>
+                <li>Even the free plan give you support cover.  </li>
+                <li>You can cancel anytime, after you cancel you still hold util expires.</li>
+                <li>Easy to save.</li>
+                <li>Support to 2fa.</li>
+            </ul>
+        </div>
 
+        <div class="side">
+            <button>Login page</button>
+        </div>
+    </div>
+    </div>
+    
+    <div class="topics">
+       <div class="topic" id="topic1">
+            <img src="imgs/search.png" onclick="jumpTo(0);">
+            <p1 style="font-weight: bold;">High Quality Security</p1>
+            <p2>We search for every possible exploit,</br> SQL Injection, DDOS, Bad requests and much more. </p2>
+            <div id="line" class=""></div>
+        </div> 
+        <div class="topic" id="topic2" onclick="jumpTo(1);">
+            <img src="imgs/org.png">
+            <p1 style="font-weight: bold;">Share your passwords</p1>
+            <p2>You can share your passwords with others users,</br>in case you have an brother or an family.</p2>
+            <div id="line" class=""></div>
+        </div>
+        <div class="topic" id="topic3" onclick="jumpTo(2);">
+            <img src="imgs/scan.png">
+            <p1 style="font-weight: bold;">Password leak detection</p1>
+            <p2>Scans common passwords leaks sites,<br> for your passwords and users.<br>This does not garentee that you are safe.</p2>
+            <div id="line" class=""></div>
+        </div>
+    </div>
+
+    <div class="topics-desc">
+        <img id="left-arrow" src="imgs/arrow.png" onclick="previus()" style="cursor: pointer;">
+        <p id="item-desc">Hi</p>
+        <img id="right-arrow" src="imgs/arrow.png" onclick="next()" style="cursor: pointer;">
+    </div>
+
+    <div class="faq">
+        <h1>FAQ</h1>
+    </div>
+    <div class="faqs" id="faq">
+        <div class="item" id="item1" state="false">
+            <div class="inner">
+                <h1 id="arrow">></h1>
+                <h1>Testing?</h1>
+            </div>
+            <p id="content"></p>
+        </div>
+    </div>
+
+    <script src="js/slides.js"></script>
+    <script src="js/faq.js"></script>
+</body>
+</html>
