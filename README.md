@@ -1,4 +1,7 @@
 # This is an school simple project.
+> [IMPORTANT]
+> I still changing this project, so expect bugs.
+
 > [!NOTE]
 > Im not making mobile support. Due this bein an test.
 
