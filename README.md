@@ -1,4 +1,6 @@
 # This is an school simple project.
+Current Status: `Complete`
+
 > [!IMPORTANT]
 > I still changing this project, so expect bugs.
 
@@ -14,8 +16,6 @@ It contains:
   <li>DOM</li>
 </ul>
 
-I could use `<section>` element i din't used due bein useless in this context.
-
 ## What do i plan next.
 I took some notations what i missed in this simple webpage.
 <ul>
@@ -23,7 +23,6 @@ I took some notations what i missed in this simple webpage.
   <li>Light-dark.</li>
   <li>Use more DOM.</li>
   <li>Attempt to connect to an backend.</li>
-  <li>Actually use section.</li>
 </ul>
 
 ## What i plan next.
@@ -36,4 +35,4 @@ This is my nexts steps.
 + Learn more usefull tags.
 
 > [!NOTE]
->I cannot complete this project, due i having no time for it. I did the best i could.
+> The usage of AI only for generating texts not code or HTML.
