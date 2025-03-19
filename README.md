@@ -4,9 +4,9 @@
 
 > [!NOTE]
 > Im not making mobile support. Due this bein an test.
--------------------------------------
+`-------------------------------------`
 I cannot complete this project, due i having no time for it. I did the best i could.
--------------------------------------
+`-------------------------------------`
 
 All content are made by me.
 It contains:
