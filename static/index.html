@@ -21,7 +21,7 @@
         <h1>/</h1>
         <h1>Super Vault</h1>
     </div>
-    <div class="intro">
+    <section class="intro">
         <h1 class="intro-tittle">Welcome to <strong>Super Vault</strong>!</h1>
         <div class="content">
             <p1>This website, saves yours passwords with <strong>high end encryption</strong>. If you wanna <a href="/">learn more.</a></p1>
@@ -40,9 +40,9 @@
             <button>Login page</button>
         </div>
     </div>
-    </div>
+    </section>
     
-    <div class="topics">
+    <section class="topics">
        <div class="topic" id="topic1">
             <img src="imgs/search.png" onclick="jumpTo(0);">
             <p1 style="font-weight: bold;">High Quality Security</p1>
@@ -61,26 +61,67 @@
             <p2>Scans common passwords leaks sites,<br> for your passwords and users.<br>This does not garentee that you are safe.</p2>
             <div id="line" class=""></div>
         </div>
-    </div>
+    </section>
 
-    <div class="topics-desc">
+    <section class="topics-desc">
         <img id="left-arrow" src="imgs/arrow.png" onclick="previus()" style="cursor: pointer;">
         <p id="item-desc">Hi</p>
         <img id="right-arrow" src="imgs/arrow.png" onclick="next()" style="cursor: pointer;">
-    </div>
+    </section>
 
     <div class="faq">
         <h1>FAQ</h1>
     </div>
-    <div class="faqs" id="faq">
-        <div class="item" id="item1" state="false">
+    <section class="faqs" id="faq">
+        <div class="item" id="item1" state="false" onclick="toggle('item1')">
             <div class="inner">
                 <h1 id="arrow">></h1>
-                <h1>Testing?</h1>
+                <h1>What if your database get leaked?</h1>
             </div>
-            <p id="content"></p>
+            <p id="content">It have encryption that uses an encrypted version of your password that we dont save it.</p>
         </div>
-    </div>
+        <div class="item" id="item2" state="false" onclick="toggle('item2')">
+            <div class="inner">
+                <h1 id="arrow">></h1>
+                <h1>How i can delete my account?</h1>
+            </div>
+            <p id="content">In the settings tab click on <b>Dump My Data</b>.</p>
+        </div>
+        <div class="item" id="item3" state="false" onclick="toggle('item3')">
+            <div class="inner">
+                <h1 id="arrow">></h1>
+                <h1>I need help to fix my account.</h1>
+            </div>
+            <p id="content">Contact customer support.</p>
+        </div>
+        <div class="item" id="item4" state="false" onclick="toggle('item4')">
+            <div class="inner">
+                <h1 id="arrow">></h1>
+                <h1>Can I store passwords for multiple accounts in this app?</h1>
+            </div>
+            <p id="content">Yes, on the manage tab click Add.</p>
+        </div>
+        <div class="item" id="item5" state="false" onclick="toggle('item5')">
+            <div class="inner">
+                <h1 id="arrow">></h1>
+                <h1>Can I sync my passwords across multiple devices?</h1>
+            </div>
+            <p id="content">Yes, when you click add it will automaticly sync it.</p>
+        </div>
+        <div class="item" id="item6" state="false" onclick="toggle('item6')">
+            <div class="inner">
+                <h1 id="arrow">></h1>
+                <h1>What happens if I forget my master password?</h1>
+            </div>
+            <p id="content">You can use the forgot password option. </p>
+        </div>
+    </section>
+    <footer>
+        
+        <a href="/privacy-policy" style="color: #fff; text-decoration: none; margin: 0 10px;">Privacy Policy</a> 
+        <a href="/terms-of-service" style="color: #fff; text-decoration: none; margin: 0 10px;">Terms of Service</a>
+        <p>&copy; 2025 Super Vault. All Rights Reserved.</p>
+    </footer>        
 
     <script src="js/slides.js"></script>
     <script src="js/faq.js"></script>

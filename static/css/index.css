@@ -277,9 +277,17 @@ li {
 }
 
 .faqs .item {
-    background-color: rgba(255,255,255,0.05);
-    border: solid #444 0;
+    background-color: rgba(255,255,255,0.02);
+    border: solid #222 0;
     border-top-width: 3px;
+    cursor: pointer;
+
+    transition: 0.2s ease-in-out;
+}
+
+.faqs .item:hover {
+    background-color: rgba(255,255,255,0.1);
+    transition: 0.2s ease-in-out;
 }
 
 .faqs .item .inner {
@@ -288,12 +296,26 @@ li {
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    height: 6vh;
+    height: auto;
+}
+
+.faqs .item p {
+    margin-left: 25px;
+    display: none;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.faqs #arrow {
+    transition: 0.2s ease-in-out;
+    text-align: right;
 }
 
 .faqs .item .inner h1 {
     padding-left: 2vh;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 #left-arrow {
@@ -331,6 +353,17 @@ li {
     justify-content: flex-start;
 
     transition: ease-in-out 0.3s;
+}
+
+footer {
+    width: auto;
+    height: 20vh;
+    background: linear-gradient(to left, rgb(0, 134, 223), rgb(117, 0, 226));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 @keyframes line_in {
