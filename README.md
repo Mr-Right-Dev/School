@@ -34,5 +34,8 @@ This is my nexts steps.
 + Learn how to handle accessibility.
 + Learn more usefull tags.
 
-> [!NOTE]
-> The usage of AI only for generating texts not code or HTML.
+## Usage of AI
+The usage of AI only for generating texts not code or HTML.
+
++ Thanks for reading.
++ Made By @Mr-Right-Dev
